@@ -754,6 +754,19 @@ h4 {
   cursor: pointer;
 }
 
+.footer__button:hover {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  background: #C29974;
+}
+
+.footer__button:active {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  background: #2C2C2C;
+  color: #C29974;
+}
+
 .footer__footer {
   display: -webkit-box;
   display: -ms-flexbox;
