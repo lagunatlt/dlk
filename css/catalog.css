@@ -1,7 +1,3 @@
-.catalog__wrap h1 {
-  padding-bottom: 20px;
-}
-
 .breadcrumbs {
   font-family: Crimson Text;
   font-style: italic;
@@ -9,6 +5,7 @@
   font-size: 20px;
   line-height: 25px;
   padding-bottom: 48px;
+  margin-bottom: 0;
 }
 
 .breadcrumbs ul {
@@ -35,5 +32,47 @@
 
 .breadcrumbs ul li:first-child a {
   color: #1E0606;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card__wrap-row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card__wrap-row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card__item:last-child {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.descr {
+  margin-bottom: 27px;
+}
+
+.descr__wrap {
+  max-width: 862px;
+  margin: 0 auto;
+}
+
+.descr__wrap p {
+  padding-bottom: 15px;
+  max-width: 678px;
 }
 /*# sourceMappingURL=catalog.css.map */

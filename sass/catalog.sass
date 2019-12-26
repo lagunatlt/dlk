@@ -1,15 +1,11 @@
-.catalog
-	&__wrap
-		h1
-			padding-bottom: 20px
 .breadcrumbs
-	
 	font-family: Crimson Text
 	font-style: italic
 	font-weight: normal
 	font-size: 20px
 	line-height: 25px
 	padding-bottom: 48px
+	margin-bottom: 0
 	ul
 		list-style-image: url(../img/v.svg)
 		display: flex
@@ -24,4 +20,25 @@
 				padding-left: 0
 				a
 					color: #1E0606
+.card
+	margin-bottom: 20px
+	&__wrap
+		&-row1
+			display: flex
+			flex-wrap: wrap
+		&-row2
+			display: flex
+			flex-wrap: wrap
+			justify-content: center
+	&__item
+		&:last-child
+			align-self: flex-end
+.descr
+	margin-bottom: 27px
+	&__wrap
+		max-width: 862px
+		margin: 0 auto
+		p
+			padding-bottom: 15px
+			max-width: 678px
 			
