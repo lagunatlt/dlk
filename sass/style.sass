@@ -51,41 +51,57 @@ section
 	text-transform: uppercase
 	&__next
 		position: relative
-		margin-right: -60px
-		width: 30px
-		height: 30px
+		margin-right: -70px
+		width: 40px
+		height: 40px
 		cursor: pointer
+		&:hover
+			&::before,
+			&::after
+				background: #C29974
+		&:active
+			&::before,
+			&::after
+				background: #E0CCB9
 		&::before
 			content: ''
 			position: absolute
-			top: 0
-			left: 0
+			top: 10px
+			left: 5px
 			width: 19px
 			height: 4px
 			background: #E3E0E0
 			transform: rotate(45deg)
-    	transform-origin: bottom right
+    	// transform-origin: bottom right
 		&::after
 			content: ''
 			position: absolute
-			top: 11px
-			left: 0
+			top: 21px
+			left: 5px
 			width: 19px
 			height: 4px
 			background: #E3E0E0
 			transform: rotate(-45deg)
-    	transform-origin: top right
+    	// transform-origin: top right
 	&__prev
 		position: relative
-		width: 30px
-		height: 30px
-		margin-left: -48px
+		width: 40px
+		height: 40px
+		margin-left: -60px
 		cursor: pointer
+		&:hover
+			&::before,
+			&::after
+				background: #C29974
+		&:active
+			&::before,
+			&::after
+				background: #E0CCB9
 		&::before
 			content: ''
 			position: absolute
-			top: 0
-			left: 0
+			top: 12px
+			left: 8px
 			width: 19px
 			height: 4px
 			background: #E3E0E0
@@ -94,8 +110,8 @@ section
 		&::after
 			content: ''
 			position: absolute
-			top: 11px
-			left: 0
+			top: 23px
+			left: 8px
 			width: 19px
 			height: 4px
 			background: #E3E0E0
@@ -129,6 +145,7 @@ section
 		justify-content: space-between
 		align-items: center
 		padding-top: 50px
+		padding-bottom: 55px
 		img
 			&:hover
 				opacity: 0.6
@@ -173,7 +190,7 @@ section
 	&-slider
 		margin-bottom: 80px
 	&__items
-		margin-top: 112px
+		margin-top: 75px
 	&__item
 		position: relative
 		height: 371px
@@ -385,6 +402,126 @@ section
 .map__wrap
 	position: absolute
 	bottom: -88px
-footer
+footer,
+h3
 	background: #434343
-	// padding: 100px 110px
+	color: #ffffff
+	font-family: Open Sans
+	font-style: normal
+	font-weight: normal
+	font-size: 16px
+	line-height: 22px
+.footer
+	&__nav
+		&-wrap 
+			display: flex
+			justify-content: space-between
+			padding-top: 100px
+			padding-bottom: 15px
+	h3
+		color: #aaaaaa
+		padding-bottom: 23px
+	&__nav,
+	&__info,
+	&__connect,
+	&__rating,
+	&__web,
+	&__copy
+		width: 32%
+		h3
+			border-bottom: 1px solid #666666
+		ul
+			list-style: none
+			padding-top: 28px
+		li
+			padding-bottom: 16px
+			&:hover
+				font-weight: 600
+			&:active
+				font-weight: bold
+			a
+				text-decoration: none
+				color: #ffffff
+	&__connect
+		form
+			width: 100%
+			display: flex
+			justify-content: start
+			padding-top: 28px
+			padding-bottom: 28px
+	&__email
+		width: 79%
+		border: none
+		height: 40px
+		display: block
+		padding: 12px
+		font-size: 16px
+		font-family: Open Sans
+		color: #EBEBEB
+		background-color: #666666
+		border-top: 1px solid #666666
+		border-left: 1px solid #666666
+		border-bottom: 1px solid #666666
+		&:hover
+			border-top: 1px solid #ffffff
+			border-left: 1px solid #ffffff
+			border-bottom: 1px solid #ffffff
+		&:focus
+			border-top: 1px solid #ffffff
+			border-left: 1px solid #ffffff
+			border-bottom: 1px solid #ffffff
+			background-color: #ffffff
+			color: #000000
+	&__button
+		border: none
+		height: 40px
+		min-width: 80px
+		font-family: Open Sans
+		font-weight: bold
+		font-size: 16px
+		text-transform: uppercase
+		color: #ffffff
+		background-color: #000000
+		cursor: pointer
+	&__footer
+		display: flex
+		justify-content: space-between
+		padding-top: 23px
+		padding-bottom: 100px
+		border-top: 1px solid #666666
+	&__web
+		color: #aaaaaa
+.rating__wrap
+	display: flex
+	&:active p
+		color: #C29974
+	p
+		color: #ffffff
+		line-height: 22px
+		padding-right: 25px
+		&:active
+			color: #ffffff
+.social
+	display: flex
+	&__item
+		width: 30px;
+		height: 30px;
+		background: #666666;
+		margin-right: 10px;
+		border-radius: 50%;
+		background-repeat: no-repeat
+		background-position: center
+		background-size: auto
+		&:hover
+			opacity: 0.5
+		&:active
+			opacity: 0.2
+		&-f
+			background-image: url(../img/f.svg)
+		&-t
+			background-image: url(../img/t.svg)
+			background-position: 8px 9px
+		&-p
+			background-image: url(../img/p.svg)
+		&-i
+			background-image: url(../img/i.svg)

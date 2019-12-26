@@ -4,7 +4,7 @@ $('.cat-slider__item').slick({
 	slidesToScroll: 2,
 	variableWidth: true,
 	centerMode: true,
-	autoplay: true,
+	// autoplay: true,
 	autoplaySpeed: 2000,
 	prevArrow: $('.button__prev'),
 	nextArrow: $('.button__next'),

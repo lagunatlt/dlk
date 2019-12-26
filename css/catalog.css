@@ -1,0 +1,39 @@
+.catalog__wrap h1 {
+  padding-bottom: 20px;
+}
+
+.breadcrumbs {
+  font-family: Crimson Text;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  padding-bottom: 48px;
+}
+
+.breadcrumbs ul {
+  list-style-image: url(../img/v.svg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.breadcrumbs ul li {
+  padding-right: 40px;
+  padding-left: 9px;
+}
+
+.breadcrumbs ul li a {
+  text-decoration: none;
+  color: #8F8383;
+}
+
+.breadcrumbs ul li:first-child {
+  list-style: none;
+  padding-left: 0;
+}
+
+.breadcrumbs ul li:first-child a {
+  color: #1E0606;
+}
+/*# sourceMappingURL=catalog.css.map */
