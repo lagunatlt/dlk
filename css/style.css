@@ -24,6 +24,15 @@ h2 {
   font-size: 38px;
 }
 
+h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+}
+
 p {
   font-family: Open Sans;
   font-style: normal;
@@ -63,6 +72,8 @@ section {
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
 }
 
 .button__next {
@@ -71,13 +82,19 @@ section {
   width: 40px;
   height: 40px;
   cursor: pointer;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
 }
 
 .button__next:hover::before, .button__next:hover::after {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   background: #C29974;
 }
 
 .button__next:active::before, .button__next:active::after {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   background: #E0CCB9;
 }
 
@@ -111,13 +128,19 @@ section {
   height: 40px;
   margin-left: -60px;
   cursor: pointer;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
 }
 
 .button__prev:hover::before, .button__prev:hover::after {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   background: #C29974;
 }
 
 .button__prev:active::before, .button__prev:active::after {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   background: #E0CCB9;
 }
 
@@ -146,10 +169,14 @@ section {
 }
 
 .button:hover {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   background: #C29974;
 }
 
 .button:active {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   background: #2C2C2C;
   color: #C29974;
 }
@@ -169,6 +196,8 @@ section {
   font-size: 11px;
   line-height: 15px;
   background-color: #1E0606;
+  border: none;
+  cursor: pointer;
 }
 
 .button_section {
@@ -193,10 +222,14 @@ section {
 }
 
 .header__wrap img:hover {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   opacity: 0.6;
 }
 
 .header__wrap img:active {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   opacity: 0.3;
 }
 
@@ -249,10 +282,14 @@ section {
 }
 
 .header__search a:hover {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   font-weight: 400;
 }
 
 .header__search a:active {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   font-weight: bold;
 }
 
@@ -377,13 +414,19 @@ section {
   height: 3px;
   background: rgba(30, 6, 6, 0.12);
   cursor: pointer;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
 }
 
 .dots-nav__item-active {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   background: rgba(30, 6, 6, 0.6);
 }
 
 .dots-nav__item:hover {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   background: rgba(30, 6, 6, 0.6);
 }
 
@@ -512,6 +555,8 @@ section {
 }
 
 .delivery__item:hover {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   font-weight: bold;
   background: rgba(112, 187, 220, 0.2);
 }
@@ -588,7 +633,7 @@ section {
 }
 
 footer,
-h3 {
+h4 {
   background: #434343;
   color: #ffffff;
   font-family: Open Sans;
@@ -609,7 +654,7 @@ h3 {
   padding-bottom: 15px;
 }
 
-.footer h3 {
+.footer h4 {
   color: #aaaaaa;
   padding-bottom: 23px;
 }
@@ -618,7 +663,7 @@ h3 {
   width: 32%;
 }
 
-.footer__nav h3, .footer__info h3, .footer__connect h3, .footer__rating h3, .footer__web h3, .footer__copy h3 {
+.footer__nav h4, .footer__info h4, .footer__connect h4, .footer__rating h4, .footer__web h4, .footer__copy h4 {
   border-bottom: 1px solid #666666;
 }
 
@@ -628,10 +673,14 @@ h3 {
 }
 
 .footer__nav li, .footer__info li, .footer__connect li, .footer__rating li, .footer__web li, .footer__copy li {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   padding-bottom: 16px;
 }
 
 .footer__nav li:hover, .footer__info li:hover, .footer__connect li:hover, .footer__rating li:hover, .footer__web li:hover, .footer__copy li:hover {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   font-weight: 600;
 }
 
@@ -669,15 +718,21 @@ h3 {
   border-top: 1px solid #666666;
   border-left: 1px solid #666666;
   border-bottom: 1px solid #666666;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
 }
 
 .footer__email:hover {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   border-top: 1px solid #ffffff;
   border-left: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
 }
 
 .footer__email:focus {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   border-top: 1px solid #ffffff;
   border-left: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
@@ -753,10 +808,14 @@ h3 {
 }
 
 .social__item:hover {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   opacity: 0.5;
 }
 
 .social__item:active {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
   opacity: 0.2;
 }
 
@@ -775,5 +834,78 @@ h3 {
 
 .social__item-i {
   background-image: url(../img/i.svg);
+}
+
+#reviewStars-input input:checked ~ label,
+#reviewStars-input label,
+#reviewStars-input label:hover,
+#reviewStars-input label:hover ~ label {
+  background: url("../img/star_level.svg") no-repeat;
+}
+
+#reviewStars-input {
+  overflow: hidden;
+  height: 25px;
+  padding-top: 4px;
+  padding-left: 9px;
+  position: relative;
+  float: left;
+}
+
+#reviewStars-input input {
+  opacity: 0;
+  width: 22px;
+  height: 19px;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+#reviewStars-input input:checked ~ label {
+  background-position: 0 -17px;
+  height: 15px;
+  width: 18px;
+}
+
+#reviewStars-input label {
+  background-position: 0 0;
+  height: 15px;
+  width: 18px;
+  float: right;
+  cursor: pointer;
+  margin-right: 3px;
+  position: relative;
+  z-index: 1;
+}
+
+#reviewStars-input label:hover,
+#reviewStars-input label:hover ~ label {
+  background-position: 0 -17px;
+  height: 19px;
+  width: 18px;
+}
+
+#reviewStars-input #star-0 {
+  left: 0px;
+}
+
+#reviewStars-input #star-1 {
+  left: 25px;
+}
+
+#reviewStars-input #star-2 {
+  left: 50px;
+}
+
+#reviewStars-input #star-3 {
+  left: 75px;
+}
+
+#reviewStars-input #star-4 {
+  left: 100px;
+}
+
+#reviewStars-input #star-5 {
+  left: 125px;
 }
 /*# sourceMappingURL=style.css.map */

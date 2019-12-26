@@ -22,7 +22,7 @@
 
 .breadcrumbs ul li a {
   text-decoration: none;
-  color: #8F8383;
+  color: #1E0606;
 }
 
 .breadcrumbs ul li:first-child {
@@ -30,8 +30,8 @@
   padding-left: 0;
 }
 
-.breadcrumbs ul li:first-child a {
-  color: #1E0606;
+.breadcrumbs ul li:last-child a {
+  color: #8F8383;
 }
 
 .card {
