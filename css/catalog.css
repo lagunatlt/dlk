@@ -38,11 +38,11 @@
   color: #8F8383;
 }
 
-.card {
+.c-card {
   margin-bottom: 20px;
 }
 
-.card__wrap-row1 {
+.c-card__wrap-row1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,7 +50,7 @@
       flex-wrap: wrap;
 }
 
-.card__wrap-row2 {
+.c-card__wrap-row2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,7 +61,7 @@
           justify-content: center;
 }
 
-.card__item:last-child {
+.c-card__item:last-child {
   -ms-flex-item-align: end;
       align-self: flex-end;
 }

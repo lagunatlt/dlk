@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAUA,AAAA,YAAY,CAAC;EACZ,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CACZ",
     "sources": [
         "../sass/toys.sass"
     ],
