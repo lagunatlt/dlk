@@ -7,11 +7,30 @@
 // 			justify-content: space-between
 // 	&__range
 // 		display: flex
+.product-card
+	margin-bottom: 10px
 
-.p-card__img
-	background-repeat: no-repeat
-	background-position: center
-	background-size: auto
-	width: 380px
-	height: 400px
-	// border: 1px solid red
+.prod
+	&__item
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		align-items: center
+
+.p-card
+	&__img
+		background-repeat: no-repeat
+		background-position: center
+		background-size: auto
+		width: 380px
+		height: 400px
+		// border: 1px solid red
+	&__title
+		text-align: center
+		padding-bottom: 10px
+		font-size: 14px
+	&__price
+		text-align: center
+		padding-bottom: 20px
+		font-weight: bold
+		font-size: 16px
