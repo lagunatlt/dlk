@@ -48,7 +48,8 @@ section {
 
 .cat__title,
 .cat__descr,
-.container {
+.container,
+.select__wrap {
   max-width: 1210px;
   margin: 0 auto;
   padding-left: 15px;
@@ -57,7 +58,8 @@ section {
 
 .cat__title-fluid,
 .cat__descr-fluid,
-.container-fluid {
+.container-fluid,
+.select__wrap-fluid {
   position: relative;
   margin: 0 auto;
 }

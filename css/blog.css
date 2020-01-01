@@ -1,3 +1,31 @@
+.select {
+  background: rgba(125, 151, 218, 0.2);
+}
+
+.select-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.select__title {
+  font-weight: bold;
+}
+
+.select__wrap {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .card__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,7 +113,7 @@
 }
 
 .pagination__page li {
-  padding-right: 67px;
+  padding-right: 58px;
 }
 
 .pagination__page li:last-child {
@@ -94,6 +122,7 @@
 
 .pagination__page li a {
   text-decoration: none;
+  padding: 8px;
 }
 
 .page {

@@ -18,6 +18,12 @@
           align-items: center;
 }
 
+.prod__item:hover .hover__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .p-card__img {
   background-repeat: no-repeat;
   background-position: center;
@@ -30,6 +36,7 @@
   text-align: center;
   padding-bottom: 10px;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .p-card__price {
@@ -37,5 +44,43 @@
   padding-bottom: 20px;
   font-weight: bold;
   font-size: 16px;
+  text-transform: uppercase;
+}
+
+.hover__wrap {
+  position: absolute;
+  width: 207px;
+  height: 207px;
+  background: #E5EAF8;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 90px;
+  background: RGBA(229, 234, 248, 0.9);
+  cursor: pointer;
+}
+
+.hover__wrap:active {
+  background: RGBA(229, 234, 248, 0.67);
+}
+
+.hover__wrap span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 /*# sourceMappingURL=toys.css.map */
