@@ -215,13 +215,20 @@ section
 .main
 	&-slider
 		margin-bottom: 80px
+		margin-top: -15px
 	&__items
-		margin-top: 75px
+		// padding-top: 75px
+		display: flex
+		flex-direction: column
+		// width: 500px
 	&__item
 		position: relative
-		height: 371px
-		width: 100%
+		height: 456px
+		// width: 600px
 		background-color: #EEE4DB
+		&-top
+			height: 90px
+			background-color: #ffffff
 		&_wrap
 			display: flex
 			justify-content: space-between
@@ -229,7 +236,7 @@ section
 
 		&-slider
 			// display: flex
-			width: 100%
+			width: calc(100% - 90px)
 		&-descr
 			width: 480px
 			margin-left: 40px
@@ -267,6 +274,7 @@ section
 			color: #FFFFFF
 .dots-nav
 	width: 90px
+	margin-top: 90px
 	background-color: #EEE4DB
 	&__current-slide
 		position: relative
@@ -276,6 +284,7 @@ section
 		font-weight: 300
 		font-size: 77.4984px
 		color: rgba(30, 6, 6, 0.05)
+		user-select: none
 		&::before
 			position: absolute
 			content: ''
