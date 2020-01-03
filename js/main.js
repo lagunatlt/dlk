@@ -16,10 +16,12 @@ $('.main__item-slider').slick({
 	variableWidth: false,
 	centerMode: false,
 	arrows: false,
-	// dots: true,
-	// fade: true,
+	dots: true,
+	fade: true,
+	autoplay: true,
+	autoplaySpeed: 2000,
 	cssEase: 'linear',
-	// dotsClass: 'dots-nav__dots',
+	dotsClass: 'dots-nav__dots',
 });
 $('.main__item-slider').on('afterChange', function (event, slick, currentSlide, nextSlide) {
 	let i = (currentSlide ? currentSlide : 0) + 1;
