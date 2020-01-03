@@ -9,6 +9,8 @@
 	<link
 		href="https://fonts.googleapis.com/css?family=Crimson+Text:400i,700i|Montserrat:300,700|Open+Sans:400,600,700&display=swap&subset=cyrillic"
 		rel="stylesheet">
+		<!-- <link rel="stylesheet" href="jquery.range.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/rangeslider.css"> -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -50,44 +52,53 @@
 				<form action="select" class="select-form">
 					<div class="select__range">
 						<span class="select__title">Const</span>
-						<input type="range" name="range" id="range" min="0" max="1000">
+						<input data-rangeslider="" data-orientation="horizontal" type="range" name="range" id="range" min="0" max="1000">
 					</div>
 					<div class="select__color">
 						<span class="select__title">Color</span>
 						<div class="color__check">
-							<input type="checkbox" name="black" id="black">
-							<span>Black</span>
+							<input class="checkbox" type="checkbox" name="black" id="black">
+							<div class="checkbox__text">Black</div>
 						</div>
 						<div class="color__check">
 							<input type="checkbox" name="blue" id="blue">
-							<span>Blue</span>
+							<span class="checkbox__text">Blue</span>
 						</div>
 						<div class="color__check">
 							<input type="checkbox" name="green" id="green">
-							<span>Green</span>
+							<span class="checkbox__text">Green</span>
 						</div>
 						<div class="color__check">
 							<input type="checkbox" name="white" id="white">
-							<span>White</span>
+							<span class="checkbox__text">White</span>
 						</div>
 					</div>
 					<div class="select__delivery">
 						<span class="select__title">Delivery</span>
 						<div class="delivery__check">
-							<input type="radio" name="free" id="free">
-							<span>Free shoping</span>
+							<input type="radio" name="radio" id="free" checked>
+							<span class="radio__text">Free shoping</span>
 						</div>
+						<input type="radio" name="radio" id="fast">
+						<span class="radio__text">Fast shoping</span>
 						<div class="delivery__check">
-							<input type="radio" name="fast" id="fast">
-							<span>Fast shoping</span>
 						</div>
 					</div>
 					<div class="select__amount">
 						<span class="select__title">Amount</span>
-						<div class="amoun__wrap">
-							<input type="checkbox" name="amout5" id="amout5" value="0-5">
-							<input type="checkbox" name="amout20" id="amout20" value="10-20">
-							<input type="checkbox" name="amout50" id="amout50" value="20-50">
+						<div class="select__amount-wrap">
+							<div class="amoun__wrap">
+								<input type="radio" name="amout" id="amout5" value="5" checked>
+								<span class="radio__amoun-text">0-5</span>
+							</div>
+							<div class="amoun__wrap">
+								<input type="radio" name="amout" id="amout20" value="20">
+								<span class="radio__amoun-text">10-20</span>
+							</div>
+							<div class="amoun__wrap">
+								<input type="radio" name="amout" id="amout50" value="50">
+								<span class="radio__amoun-text">20-50</span>
+							</div>
 						</div>
 					</div>
 					<button class="button button_section">Apply</button>
@@ -233,11 +244,11 @@
 			</div>
 		</div>
 	</footer>
-
+	<!-- <script src="js/rangeslider.js"></script> -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<script src="./js/main.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>

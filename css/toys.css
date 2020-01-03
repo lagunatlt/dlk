@@ -83,4 +83,144 @@
       -ms-user-select: none;
           user-select: none;
 }
+
+.color__check {
+  position: relative;
+}
+
+.color__check input {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  width: 85px;
+  height: 20px;
+  cursor: pointer;
+  top: -2px;
+}
+
+.checkbox__text {
+  position: relative;
+  padding: 0 0 0 32px;
+  cursor: pointer;
+}
+
+.checkbox__text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 19px;
+  height: 19px;
+  border: 2px solid #C29974;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: 1px -1px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.color__check input:checked + .checkbox__text::before {
+  background-color: #ffffff;
+  background-image: url(../img/select.svg);
+}
+
+.select__delivery {
+  position: relative;
+}
+
+.select__delivery input {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  width: 129px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.radio__text {
+  position: relative;
+  padding: 0 0 0 32px;
+  cursor: pointer;
+}
+
+.radio__text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #C29974;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.select__delivery input:checked + .radio__text::before {
+  background-image: url(../img/radio.svg);
+}
+
+.select__amount {
+  position: relative;
+}
+
+.select__amount-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.select__amount input {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.amoun__wrap {
+  position: relative;
+  width: 85px;
+  height: 35px;
+}
+
+.radio__amoun-text {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85px;
+  height: 35px;
+  margin-right: 20px;
+  background-color: #fff;
+}
+
+.radio__amoun-text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.select__amount input:checked + .radio__amoun-text {
+  background-color: #F3D0DB;
+}
 /*# sourceMappingURL=toys.css.map */

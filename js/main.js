@@ -27,3 +27,5 @@ $('.main__item-slider').on('afterChange', function (event, slick, currentSlide, 
 	let i = (currentSlide ? currentSlide : 0) + 1;
 	$('.dots-nav__current-slide').text("0" + i);
 });
+
+$('input[type="range"]').rangeslider();
