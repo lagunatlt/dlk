@@ -10,10 +10,11 @@
 		href="https://fonts.googleapis.com/css?family=Crimson+Text:400i,700i|Montserrat:300,700|Open+Sans:400,600,700&display=swap&subset=cyrillic"
 		rel="stylesheet">
 		<!-- <link rel="stylesheet" href="jquery.range.css"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="css/rangeslider.css"> -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.3/rangeslider.css">
+		<!-- <link rel="stylesheet" type="text/css" href="./css/rangeslider.css"> -->
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
 	<!-- <link rel="stylesheet" type="text/css" href="css/stars.css"> -->
 
 </head>
@@ -49,10 +50,10 @@
 	<section class="select">
 		<div class="container-fluid">
 			<div class="select__wrap">
-				<form action="select" class="select-form">
+				<form action="#" class="select-form">
 					<div class="select__range">
 						<span class="select__title">Const</span>
-						<input data-rangeslider="" data-orientation="horizontal" type="range" name="range" id="range" min="0" max="1000">
+						<input type="range" min="0" max="1000" step="10">
 					</div>
 					<div class="select__color">
 						<span class="select__title">Color</span>
@@ -244,11 +245,12 @@
 			</div>
 		</div>
 	</footer>
-	<!-- <script src="js/rangeslider.js"></script> -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.3/rangeslider.js"></script>
+	<!-- <script src="./js/rangeslider.js"></script> -->
+	<script src="./js/main.js"></script>
 </body>
 
 </html>
