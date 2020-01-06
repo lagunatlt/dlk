@@ -21,6 +21,9 @@
 }
 
 @media (max-width: 1024px) {
+  .header__wrap {
+    padding-bottom: 13px;
+  }
   .main__item-img {
     right: 20px;
     width: 54%;
@@ -203,6 +206,12 @@
   }
 }
 
+@media (max-width: 480px) {
+  .cat-button__wrap {
+    display: none;
+  }
+}
+
 @media (max-width: 400px) {
   h1, h2 {
     font-size: 26px;
@@ -230,9 +239,6 @@
   }
   .main__item-descr h1 {
     padding-top: 40px;
-  }
-  .cat-button__wrap {
-    display: none;
   }
   .cat__title {
     display: none;
