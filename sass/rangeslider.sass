@@ -1,0 +1,92 @@
+$primary: #C29974
+$secondary: #333333
+$roundness: 0px
+
+$sliderHeight: 3px
+$handleSize: 23px
+$valueWidth: 90px
+$labelMarkerHeight: 12px
+
+body
+  font-family: Helvetica, sans-serif
+
+.rangeslider-wrap
+	position: relative
+
+.rangeslider
+  position: relative
+  height: $sliderHeight
+  width: 173px
+  margin-left: 23px
+  background-color: #73757C
+  &:before
+    content: ''
+    transition: background-color .2s
+    box-sizing: border-box
+    width: $handleSize
+    height: $handleSize
+    border-radius: 100%
+    background-color: #ffffff
+    touch-action: pan-y
+    cursor: pointer
+    display: inline-block
+    position: absolute
+    z-index: 3
+    top: -($handleSize/2) + ($sliderHeight/2)
+    border: 8px solid $primary
+    display: flex
+    justify-content: center
+    left: -23px
+  &__handle 
+    transition: background-color .2s
+    box-sizing: border-box
+    width: $handleSize
+    height: $handleSize
+    border-radius: 100%
+    background-color: #ffffff
+    touch-action: pan-y
+    cursor: pointer
+    display: inline-block
+    position: absolute
+    z-index: 3
+    top: -($handleSize/2) + ($sliderHeight/2)
+    border: 8px solid $primary
+    display: flex
+    justify-content: center
+
+    &__value
+      // transition: background-color .2s, 
+      //             box-shadow .1s,
+      //             transform .1s
+      box-sizing: border-box
+      text-align: center
+      border-radius: $roundness
+      color: $secondary
+      top: 24px
+      position: absolute
+      white-space: nowrap
+      font-size: 16px
+
+      &:after
+        content: ""
+  
+  &__fill
+    position: absolute
+    top: 0
+    z-index: 1
+    height: 100%
+    background-color: $primary
+  
+  &__labels
+    position: absolute
+    width: 100%
+    z-index: 2
+    display: flex
+    justify-content: space-between
+    
+    &__label
+      font-size: 16px
+      position: relative
+      padding-top: 22px
+      margin-left: -16px
+      color: $secondary

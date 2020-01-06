@@ -12,8 +12,8 @@
 		<!-- <link rel="stylesheet" href="jquery.range.css"> -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.3/rangeslider.css">
-		<!-- <link rel="stylesheet" type="text/css" href="./css/rangeslider.css"> -->
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.3/rangeslider.css"> -->
+		<link rel="stylesheet" type="text/css" href="./css/rangeslider.css">
 		<link rel="stylesheet" type="text/css" href="./css/main.css">
 	<!-- <link rel="stylesheet" type="text/css" href="css/stars.css"> -->
 
@@ -53,36 +53,38 @@
 				<form action="#" class="select-form">
 					<div class="select__range">
 						<span class="select__title">Const</span>
-						<input type="range" min="0" max="1000" step="10">
+						<div class="rangeslider-wrap">
+							<input type="range" min="0" max="1000" step="10" labels="0" value="500">
+						</div>
 					</div>
 					<div class="select__color">
 						<span class="select__title">Color</span>
-						<div class="color__check">
+						<div class="color__check select-bottom">
 							<input class="checkbox" type="checkbox" name="black" id="black">
 							<div class="checkbox__text">Black</div>
 						</div>
-						<div class="color__check">
+						<div class="color__check select-bottom">
 							<input type="checkbox" name="blue" id="blue">
 							<span class="checkbox__text">Blue</span>
 						</div>
-						<div class="color__check">
+						<div class="color__check select-bottom">
 							<input type="checkbox" name="green" id="green">
 							<span class="checkbox__text">Green</span>
 						</div>
-						<div class="color__check">
+						<div class="color__check select-bottom">
 							<input type="checkbox" name="white" id="white">
 							<span class="checkbox__text">White</span>
 						</div>
 					</div>
 					<div class="select__delivery">
 						<span class="select__title">Delivery</span>
-						<div class="delivery__check">
+						<div class="delivery__check select-bottom">
 							<input type="radio" name="radio" id="free" checked>
 							<span class="radio__text">Free shoping</span>
 						</div>
-						<input type="radio" name="radio" id="fast">
-						<span class="radio__text">Fast shoping</span>
-						<div class="delivery__check">
+						<div class="delivery__check select-bottom">
+							<input type="radio" name="radio" id="fast">
+							<span class="radio__text">Fast shoping</span>
 						</div>
 					</div>
 					<div class="select__amount">
@@ -102,7 +104,7 @@
 							</div>
 						</div>
 					</div>
-					<button class="button button_section">Apply</button>
+					<button class="button button_section select-button">Apply</button>
 				</form>
 				
 			</div>
@@ -248,8 +250,8 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.3/rangeslider.js"></script>
-	<!-- <script src="./js/rangeslider.js"></script> -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.3/rangeslider.js"></script> -->
+	<script src="./js/rangeslider.js"></script>
 	<script src="./js/main.js"></script>
 </body>
 

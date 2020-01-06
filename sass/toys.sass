@@ -1,24 +1,47 @@
-// .select
-// 	&__wrap
-// 		display: flex
-// 		justify-content: space-between
-// 		form
-// 			display: flex
-// 			justify-content: space-between
-// 	&__range
-// 		display: flex
+.card
+	&__items
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		a
+			text-decoration: none
+	&__item
+		position: relative
+		width: 380px
+		height: 513px
+		margin-bottom: 60px
+.select__range .select__title
+	padding-bottom: 25px
+	
+.select
+	background: rgba(125, 151, 218, 0.2)
+	&-form
+		display: flex
+		justify-content: space-between
+		font-family: Open Sans
+		font-style: normal
+		font-weight: normal
+		font-size: 16px
+		line-height: 22px
+		color: #333333
+	&__title
+		display: inline-block
+		padding-bottom: 15px
+		font-weight: bold
+	&__wrap
+		padding-top: 40px
+		padding-bottom: 40px
+	
 .product-card
 	margin-bottom: 10px
 
 .prod
 	&__item
-		// transition: 1s all ease-in
 		display: flex
 		flex-direction: column
 		justify-content: space-between
 		align-items: center
 		&:hover .hover__wrap
-			// transition: 1s all ease-in
 			display: flex
 .p-card
 	&__img
@@ -39,7 +62,6 @@
 		font-size: 16px
 		text-transform: uppercase
 .hover__wrap
-	// transition: 1s all ease-in
 	position: absolute
 	width: 207px
 	height: 207px
@@ -154,8 +176,6 @@
 		left: 0
 		width: 100%
 		height: 100%
-		// border: 2px solid #C29974
-		// border-radius: 50%
 		box-sizing: border-box
 		background-repeat: no-repeat
 		background-position: center
@@ -163,24 +183,7 @@
 .select__amount input:checked + .radio__amoun-text
 	background-color: #F3D0DB
 
-// .range 
-// 	-webkit-appearance: none
-// 	border-radius: 2px
-// 	width: 200px
-// 	height: 10px
-// 	outline: none
-// 	border: 1px solid #D4D4D4
-
-// .range::-webkit-slider-thumb
-// 	-webkit-appearance: none
-// 	width: 18px
-// 	height: 18px
-// 	background: #D4D4D4
-// 	border-radius: 18px
-// 	cursor: pointer
-// 	transition: .1s
-// .range::-webkit-slider-thumb:hover,
-// .range::-webkit-slider-thumb:active
-// 	width: 24px
-// 	height: 24px
-	
+.select-bottom
+	padding-bottom: 10px
+.select-button
+	margin-top: 23px
