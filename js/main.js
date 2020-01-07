@@ -1,10 +1,10 @@
 $(document).ready(function ($) {
 	let nav = $('.top_box');
 	$(window).scroll(function () {
-		if ($(this).scrollTop() > 10) {
-			nav.addClass("top_box_shadow");
+		if ($(this).scrollTop() > 52) {
+			nav.addClass('fixed-top');
 		} else {
-			nav.removeClass("top_box_shadow");
+			nav.removeClass('fixed-top');
 		}
 	});
 

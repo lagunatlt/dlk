@@ -40,9 +40,9 @@
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
   }
   .main__item-top {
     display: none;
@@ -154,9 +154,6 @@
     width: 100%;
     font-size: 14px;
     line-height: 19px;
-  }
-  .header__wrap {
-    margin-bottom: 20px;
   }
   .delivery__img {
     display: none;

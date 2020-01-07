@@ -39,6 +39,7 @@ p
 section
 	margin-bottom: 90px
 
+
 .cat__title,
 .cat__descr,
 .container,
@@ -166,8 +167,6 @@ section
 		display: flex
 		justify-content: space-between
 		align-items: center
-		padding-top: 50px
-		padding-bottom: 55px
 		img
 			&:hover
 				transition: 0.2s all ease
@@ -216,6 +215,21 @@ section
 				&:active
 					transition: 0.2s all ease
 					font-weight: bold
+.header
+	padding-top: 50px
+	padding-bottom: 55px
+
+.fixed-top
+	position: fixed
+	z-index: 1030
+	top: 0
+	right: 0
+	left: 0
+	transition: 0.2s all ease-in-out
+	background-color: #ffffff
+	box-shadow: 0 2px 12px rgba(159, 159, 159, 0.49)
+	padding-top: 10px
+	padding-bottom: 10px
 .main
 	&-slider
 		margin-bottom: 80px
