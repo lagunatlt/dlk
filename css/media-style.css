@@ -21,9 +21,6 @@
 }
 
 @media (max-width: 1024px) {
-  .header__wrap {
-    padding-bottom: 13px;
-  }
   .main__item-img {
     right: 20px;
     width: 54%;
@@ -31,6 +28,9 @@
 }
 
 @media (max-width: 800px) {
+  .header__logo {
+    width: 70%;
+  }
   .main__item-img {
     right: 0;
     width: 54%;
@@ -210,9 +210,6 @@
   .cat-button__wrap {
     display: none;
   }
-}
-
-@media (max-width: 400px) {
   h1, h2 {
     font-size: 26px;
   }
@@ -227,6 +224,15 @@
     text-align: center;
     line-height: 125%;
   }
+  .cat__title {
+    margin-top: -20px;
+  }
+  .cat__title {
+    margin-bottom: 9px;
+  }
+}
+
+@media (max-width: 400px) {
   .delivery__title {
     width: 100%;
   }
@@ -239,9 +245,6 @@
   }
   .main__item-descr h1 {
     padding-top: 40px;
-  }
-  .cat__title {
-    display: none;
   }
   .cat__descr {
     margin-top: 0;

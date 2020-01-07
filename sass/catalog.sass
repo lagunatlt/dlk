@@ -1,5 +1,9 @@
 .catalog
 	margin-bottom: 35px
+	&__wrap
+		display: flex
+		flex-wrap: wrap
+
 .breadcrumbs
 	font-family: Crimson Text
 	font-style: italic
@@ -25,14 +29,9 @@
 					color: #8F8383
 .c-card
 	margin-bottom: 20px
+	&:nth-child(4)
+		margin-left: 19%
 	&__wrap
-		&-row1
-			display: flex
-			flex-wrap: wrap
-		&-row2
-			display: flex
-			flex-wrap: wrap
-			justify-content: center
 	&__item
 		&:last-child
 			align-self: flex-end
