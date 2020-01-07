@@ -31,11 +31,23 @@
   .header__logo {
     width: 70%;
   }
+  .header__nav-wrap {
+    width: 66%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header__nav {
+    padding-bottom: 13px;
+  }
   .main__item-img {
     right: 0;
     width: 54%;
   }
   .header__wrap {
+    width: 100%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
@@ -150,10 +162,71 @@
 }
 
 @media (max-width: 640px) {
+  .header {
+    padding-top: 0;
+  }
   .cat__descr p {
     width: 100%;
     font-size: 14px;
     line-height: 19px;
+  }
+  .header__nav {
+    width: 100%;
+    height: 290px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: 0;
+  }
+  .header__nav li {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .header__search {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    height: 142px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .header__search li {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .header__search > li:last-child {
+    padding-top: 50px;
+  }
+  .header__nav > li:nth-child(1) {
+    padding-top: 100px;
+  }
+  .header__nav-wrap {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header__wrap {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu_button-close,
+  .menu_button-open {
+    display: block;
   }
   .delivery__img {
     display: none;
