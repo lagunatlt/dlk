@@ -1,0 +1,18 @@
+@media (max-width: 640px) {
+  .select-button {
+    margin-top: 33px;
+  }
+}
+
+@media (max-width: 460px) {
+  .select-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .select__range {
+    margin-bottom: 50px;
+  }
+}
+/*# sourceMappingURL=media-toys.css.map */
