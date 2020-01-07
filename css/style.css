@@ -315,8 +315,7 @@ section {
 
 .menu_button-close {
   -ms-flex-item-align: end;
-      -ms-grid-row-align: end;
-      align-self: end;
+      align-self: flex-end;
 }
 
 .menu_button-close,
@@ -348,7 +347,7 @@ section {
 .fly_menu {
   width: 380px;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: -500px;
   z-index: 1030;
