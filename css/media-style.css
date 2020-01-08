@@ -5,17 +5,17 @@
             justify-content: flex-end;
     width: 80%;
   }
-  .button__next::after {
+  .cat-button__wrap .button__next::after {
     top: 23px;
   }
-  .button__next::before {
+  .cat-button__wrap .button__next::before {
     top: 12px;
   }
-  .button__prev {
+  .cat-button__wrap .button__prev {
     margin-left: 0px;
     padding-right: 100px;
   }
-  .button__next {
+  .cat-button__wrap .button__next {
     margin-right: 0;
   }
 }

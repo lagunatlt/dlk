@@ -25,7 +25,7 @@
 }
 
 .blog__img {
-  width: 100%;
+  width: 380px;
   height: 220px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,7 +46,6 @@
 
 .pagination__wrap .button__prev {
   margin-left: -10px;
-  padding-right: 0;
 }
 
 .pagination__wrap .button__next {
