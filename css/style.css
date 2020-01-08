@@ -219,6 +219,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 5px;
 }
 
 .header__wrap img:hover {
